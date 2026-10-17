@@ -1,0 +1,259 @@
+html{
+  scroll-behavior: smooth;
+}
+body{
+  max-width: 1200px;
+  margin:0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+background:#F8F9FA;
+ color:#334155;
+}
+nav{
+  background:#1e293b;
+  color: white;
+  padding:5px;
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+  border-bottom: 1px solid #e2e8f0;
+}
+.nav{
+  display:flex;
+  gap:0px;
+  align-items: center;
+}
+.h{
+  color:#ff3366;
+}
+.dash{
+  color:#ffd700;
+}
+.c{
+  color:#00e5ff;
+}
+.u{
+  color:#9b59b6;
+}
+.b{
+  color:#ff8c00;
+}
+.i{
+  color:#39ff14;
+}
+.f{
+  color:#ff007f;
+}
+.y{
+ color: #ffd700;
+}
+.hamburger{
+  display:block;
+  display:flex;
+  flex-direction: column;
+  gap:8px;
+  padding:10px;
+  padding-left: 10px;
+  cursor: pointer;
+  width:30px;
+  text-align: center;
+}
+.ham{
+  display:block;
+  background:white;
+  width:30px;
+  height:3px;
+  
+}
+main{
+  margin-top:75px;
+  padding: 15px;
+}
+.card,.notesCard,.normalTasks, .completedCon{
+  background:#ffffff;
+  padding:15px;
+  margin-bottom:10px;
+  margin-top: 5px;
+  border-radius: 12px;
+  border:2px solid #e2e8f0;
+}
+.notesCard{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.one{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  gap:15px;
+}
+.currentFeed{
+  font-weight:bold;
+}
+.two{
+  transition:0.2s;
+  background:#1e293b;
+  color: white;
+  left:-1000px;
+  top:0;
+  bottom:0;
+  z-index: 999;
+  width:60%;
+  overflow-x: auto;
+  position:fixed;
+  padding:10px;
+}
+.openSidebar{
+  left:0;
+}
+.heading{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom:3px solid #e2e8f0;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  margin-bottom: 20px;
+}
+.heading h3{
+  font-size: 22px;
+}
+.cancel{
+  background:white;
+  border-radius: 15px;
+  padding:6px;
+  cursor:pointer;
+}
+.notes,.home,.todo,.settings{
+  font-weight:bold;
+  font-size: 20px;
+  display:flex;
+  gap:16px;
+  align-items: center;
+  padding:5px;
+}
+form,.confirmDel,.todoForm,.resetOpt{
+  left:0;
+  right:0;
+  border:3px solid #e2e8f0;
+  padding:15px;
+  border-radius: 12px;
+  text-align: center;
+  background:#1e293b;
+  position:fixed;
+  z-index:999;
+  display:none;
+}
+form input,.taskInput{
+  width:95%;
+  padding:10px;
+  border-radius: 12px;
+  border:2px solid #e2e8f0;
+  margin-bottom:10px;
+  background:white;
+}
+.btns1{
+  Display:flex;
+  gap:10px;
+}
+.btns1 button,.button{
+  width:90%;
+  padding:8px;
+  border-radius: 10px;
+  background:#14b8a6;
+  font-weight:bold;
+  border:3px solid #e2e8f0;
+  cursor:pointer;
+}
+.button{
+  width:30%;
+}
+.search{
+  width:100%;
+  padding:8px;
+  background:#ffffff;
+  border:3px solid #e2e8f0;
+  border-radius: 12px;
+  font-weight:bold;
+  margin-bottom: 15px;
+}
+button{
+  background:#14b8a6;
+  padding:10px;
+  font-weight:bold;
+  border-radius: 10px;
+  border:3px solid #e2e8f0;
+  cursor: pointer;
+}
+.utility{
+  display:flex;
+  align-items: center;
+  font-weight:bold;
+  font-size: 20px;
+  cursor: pointer;
+}
+.utility1{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.three,.four,.five,.six,.themeCon{
+  display:none;
+}
+.utility2{
+  display:flex;
+  justify-content: space-between;
+}
+.confirmText, .edit, .confirmEdit{
+  display: none;
+}
+.hide{
+  display: none;
+}
+.show{
+  display:block;
+}
+.active{
+  border:2px solid blue;
+  border-radius: 10px;
+}
+textarea{
+  width:90%;
+  height:130px;
+  position:fixed;
+  bottom:0;
+  margin-bottom: 10px;
+  background:#ffffff;
+  border:3px solid #e2e8f0;
+  border-radius: 12px;
+  font-weight:bold;
+  padding:5px;
+  z-index: 999;
+  display:none;
+}
+.utility3{
+  display:flex;
+  gap:10px;
+}
+.featureBtn-con{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.div1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.themeSet,.darkTheme,.lightTheme,.resetCard{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight:bold;
+  background:#ffffff;
+  border:3px solid #e2e8f0;
+  padding:10px;
+  border-radius: 15px;
+  margin-bottom:8px;
+  cursor: pointer;
+}

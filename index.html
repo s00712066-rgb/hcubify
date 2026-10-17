@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>H-cubify</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav>
+    <div class="nav">
+     <div class="hamburger">
+       <span class="ham"></span>
+       <span class="ham"></span>
+       <span class="ham"></span>
+     </div>
+     
+     <h1><span class="h">H</span><span class="dash">-</span><span class="c">C</span><span class="u">U</span><span class="b">B</span><span class="i">I</span><span class="f">F</span><span class="y">Y</span></h1>
+    </div>
+  </nav>
+  <main>
+   <p class="currentFeed" style="font-size:30px">Home Feed</p>
+   <section class="notesSection">
+    
+    <section class="one">
+      <div class="card">
+        <h2>Total Notes: <span class="totalNotes">0</span></h2>
+      </div>
+      
+      <div class="card">
+        <h2>Total Tasks: <span class="totalTasks">0</span></h2>
+      </div>
+      
+      <div class="card">
+        <h2>Featured Notes: <span class="featuredNotes">0</span></h2>
+      </div>
+      
+      <div class="card">
+        <h2>Completed Tasks: <span class="completedTasks">0</span></h2>
+      </div>
+    </section>
+    
+    <section class="two">
+      <div class="menu">
+        
+        <div class="heading">
+         <h3>H-Tech</h3>
+         <h3 class="cancel">✖️</h3>
+        </div>
+        
+         <div class="menuNav">
+           <p class="home">
+             <span>🏠</span>
+             <span>Home</span>
+           </p>
+           
+           <p class="notes">
+             <span>📒</span>
+             <span>Notes</span>
+           </p>
+           
+           <p class="todo">
+             <span>📝</span>
+             <span>Todo List</span>
+           </p>
+           
+           <p class="settings">
+             <span>⚙️</span>
+             <span>settings</span>
+           </i>
+         </div>
+      </div>
+    </section>
+    
+    <section class="three">
+      
+     <form class="enterNotes">
+       <input type="text" class="enterNote" placeholder="Please Enter Note Title">
+       
+       <div class="btns1">
+         <button class="done">Done</button>
+         <button class="discard">Discard</button>
+       </div>
+     </form>
+     
+     <input class="search" type="search"  placeholder="Search Notes">
+     
+     <div class="utility1">
+       <div class="utility">
+       <button class="back">⬅️ back</button></div>
+       
+      <button class="createNote">Create Note</button>
+     </div>
+     
+     <div class="confirmDel">
+       <p>Are you sure you want to delete this note</p>
+       <div class="btns1">
+         <button class="yes">Yes</button>
+         <button class="no">No</button>
+       </div>
+     </div>
+     
+     <div class="container">
+       
+     </div>
+    </section>
+    
+    <section class="four">
+      <div class="utility2">
+        <button class="back2">⬅️back</button>
+        <div class="utility3">
+          <button class="addText">➕Add Text</button>
+          
+          <button class="confirmText">✔️Confirm</button>
+          
+          <button class="edit">✏️Edit</button>
+          
+          <button class="confirmEdit">✔️Confirm</button>
+        </div>
+      </div>
+      <div class="featureBtn-con">
+       <h3 class="noteHead" style="text-align:center"></h3>
+       <button class="starbtn">🌟</button>
+      </div>
+        <div class="p">
+          
+          
+        </div>
+      <div class="text">
+       <textarea class="textarea" placeholder="Type a note..."></textarea>
+      </div>
+    </section>
+   </section>
+   
+   <section class="five">
+     <div class="btns1">
+       
+       <button class="back3">⬅️Back</button>
+       <button class="createTask">📝Create Task</button>
+       
+     </div>
+     <div class="todoForm">
+       <input type="text" class="taskInput" placeholder="Enter task">
+       
+       <div class="btns1">
+         <button class="saveTodo">Save</button>
+         <button class="discardTodo">Discard</button>
+       </div>
+     </div>
+     
+      <div class="taskContainer">
+        <div class="pinnedCon">
+          
+        </div>
+        
+        <div class="normalTasks">
+          
+        </div>
+        
+        <div class="completedCon">
+        
+        </div>
+      </div>
+   </section>
+   
+   <section class="six">
+     <div class="settingsCon">
+       <div class="themeSet">
+        <p>Theme</p>
+        <span>⬇️</span>
+       </div>
+     </div>
+     
+     <div class="themeCon">
+       <div class="darkTheme">
+         <p>Dark</p>
+         <input class="dark" type=radio>
+       </div>
+       
+       <div class="lightTheme">
+         <p>Light</p>
+         <input class="light" type="radio">
+       </div>
+     </div>
+     
+     <div class="resetCon">
+       <div class="resetCard">
+         <p>Reset App</p>
+         <span>⬇️</span>
+       </div>
+       
+       <div class="resetOpt">
+         <p>Are you sure you want to erase all data from the app</p>
+         
+         <div class="btns1">
+           <button class="erase">Erase</button>
+           <button class="avoid">Avoid</button>
+         </div>
+       </div>
+     </div>
+   </section>
+   
+  </main>
+  
+  <script type="module" src="app.js"></script>
+</body>
+
+</html>
